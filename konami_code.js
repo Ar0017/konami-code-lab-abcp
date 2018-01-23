@@ -10,7 +10,7 @@ document.body.addEventListener('keydown', handleKonamiCode);
     if (key === code[input]) {
       input++;
       if (input === code.length) {
-        alert('Woo');
+        alert('WooHoo!');
       }
     } else {
       input = 0;
